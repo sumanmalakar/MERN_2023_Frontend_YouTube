@@ -6,7 +6,7 @@ import Register from './pages/Register'
 import AddBlog from './pages/AddBlog'
 import Profile from './pages/Profile'
 import Navbar from './components/Navbar'
-import context from './context/context'
+import context from './context/AuthContext'
 
 const App = () => {
   const navigate = useNavigate()

@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Context from './context'
+import Context from './AuthContext'
 
 const state = (props) => { 
     const [isAuthenticated, setIsAuthenticated] = useState(false)
