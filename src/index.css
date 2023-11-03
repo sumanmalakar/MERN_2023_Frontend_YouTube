@@ -1,0 +1,24 @@
+.navbar{
+  background-color: blue;
+  padding: 10px;
+}
+.left{
+  text-decoration: none;
+  color: white;
+}
+.items{
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+}
+
+.items:hover{
+  background-color: black;
+  color: white;
+}
+
+.right{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
